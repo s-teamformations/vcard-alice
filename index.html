@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alice - vCard</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="loader">
+    <img src="images/logo_formation_V2.JPG" alt="Logo S-Team Formations" class="logo-loader" />
+  </div>
+
+  <div class="card">
+    <div class="curve-header"></div>
+    <img class="profile-img" src="images/Alice-Lantourne.jpg" alt="Alice" />
+    <a href="vcard/alice.vcf" download class="vcard-bubble" title="Télécharger le contact">
+      <i class="fas fa-address-card"></i>
+    </a>
+    <div class="card-body">
+      <h5 class="card-title">Alice</h5>
+      <div class="card-subtitle">Directrice générale - S-Team Formations</div>
+      <div class="contact-buttons">
+        <a href="tel:0642921588">Téléphone</a>
+        <a href="#" onclick="window.location.href='mailto:' + 'contact' + '@s-teamformations.fr'; return false;">Email</a>
+        <a href="https://www.s-teamformations.fr/" target="_blank">Site Web</a>
+      </div>
+      <div class="social-box">
+        <h6>Suivez-nous sur les réseaux</h6>
+        <div class="social-icons-row">
+          <a href="https://www.facebook.com/people/S-Team-Formations/61566949414638/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg" alt="Facebook" class="social-img" />
+          </a>
+          <a href="https://www.instagram.com/steam_formations_officiel/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="social-img" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="mx-auto bg-white text-center py-2 text-muted">
+      Powered by S-Team Formations
+    </div>
+  </div>
+</body>
+</html>
