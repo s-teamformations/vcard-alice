@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Lantourne;Alice;;;
+FN:Alice Lantourne
+ORG:S-Team Formations
+TITLE:Directrice générale
+TEL;TYPE=work,voice:0642921588
+EMAIL:contact@s-teamformations.fr
+URL:https://www.s-teamformations.fr/
+END:VCARD
